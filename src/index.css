@@ -1,0 +1,122 @@
+/* @import '~antd/dist/antd.css'; */
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+}
+body{
+  background-color: #e1e1e1;
+}
+
+.home{
+  background: #eeeeee;
+  color: #ffffff;
+  padding:15px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.home_item{
+  position: relative;
+  margin-Right:10px;
+}
+.home img{
+  width:100%;
+}
+.cover{
+  position: absolute;
+  top:0px;
+  background:rgb(92, 79, 83,0.4);
+  width: 100%;
+  height:100%
+  
+}
+.Hfont{
+  color:#ffffff;
+  position: absolute;
+  font-size: 4vw;
+  text-align: center;
+  top:40%;
+  left:25%;
+}
+
+.recommend{
+  line-height: 50px;
+}
+.recommend span{
+  border-left:5px solid #3fcccb;
+  padding-left:15px;
+  font-size: 3vw;
+}
+.recommendImg{
+  display: flex;
+  position: relative;
+}
+.recommendImg span{
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  top :90%;
+  left:5%;
+  font-size:4vw;
+  color: white;
+}
+
+
+/* 灵感 */
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.placeholder {
+  background-color: #ebebef;
+  color: #bbb;
+  /* text-align: center; */
+
+  /* height: 520px; */
+  /* line-height: 30px; */
+  display: flex;
+  width: 100%;
+  height:100%;
+}
+.placeholder img{
+  width: 100%;
+}
+/* .flex-container {
+  margin: 0 15px;
+} */
+
+
+/* 商城 */
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 15px 0 9px 15px;
+}
+.not-square-grid .am-grid-icon {
+  width: 40px;
+  height: 60px;
+}
+
+/* 商城 */
+
+.icon{
+  margin:10px;
+  border-radius:50%;
+  color:white;
+  height: 25px;
+ 
+}
+.shop{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+}
+.shop1 img{
+  width:100%;
+}
+/* //-------- */
